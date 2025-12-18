@@ -8,21 +8,38 @@ main() {
     read -n 1 with_editor
     echo
 
-    echo "Kotono Engine path :"
-    read -r engine_path
-    echo
-
     if [[ "$with_editor" == "y" ]]; then
         EDITOR="-DWITH_EDITOR=ON"
     else
         EDITOR="-DWITH_EDITOR=OFF"
     fi
 
+    echo "Kotono Engine path :"
+    read -r engine_path
+    echo
+
+    if [[ "$engine_path" == "" ]]; then
+        echo "The Kotono Engine path must not be empty"
+        return
+    fi
+
     ENGINE_PATH="-DENGINE_PATH:PATH=$engine_path"
 
-    echo "Selected definitions :"
-    echo "$EDITOR"
-    echo "$ENGINE_PATH"
+    echo "Generator :"
+    read -r generator
+    echo
+
+    if [[ "$generator" == "" ]]; then
+        echo "The generator must not be empty"
+        return
+    fi
+
+    GENERATOR="$generator"
+
+    echo "Selected options :"
+    echo "  $EDITOR"
+    echo "  $ENGINE_PATH"
+    echo "  $GENERATOR"
     echo
 
     BUILD_DIR="build"
@@ -33,7 +50,7 @@ main() {
     cd "$BUILD_DIR"
 
     echo "⚙️ Running CMake from project root..."
-    cmake .. -G "Visual Studio 17 2022" -A x64 $EDITOR "$ENGINE_PATH"
+    cmake .. -G "$GENERATOR" -A x64 $EDITOR "$ENGINE_PATH"
     echo "✅ CMake generation complete!"
 }
 

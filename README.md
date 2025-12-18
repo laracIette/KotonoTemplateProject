@@ -1,16 +1,14 @@
 # Kotono Template Project
 
-This is a template project for the *[KotonoEngine](https://github.com/laracIette/KotonoEngine)*.
+This is a template project for the *[Kotono Engine](https://github.com/laracIette/KotonoEngine)*.
 
 ## Build
 
-### Visual Studio
-- To build the solution for Visual Studio, execute *[build_vs17.sh](build_vs17.sh)* for Visual Studio 2022, or *[build_vs18.sh](build_vs18.sh)* for Visual Studio 2026.
+- To build the solution run *[build.sh](build.sh)*.
 
-- All generated build files will be located in *build/*.
+    - All generated build files will be located in *build/*.
 
-### Other IDE
-- To build the solution for other IDEs, create a build folder and run CMake for your IDE with the options :
+- Or create a build folder and run CMake for your IDE with the options :
 
     - -DWITH_EDITOR=*ON* for the solution with the editor.
 
