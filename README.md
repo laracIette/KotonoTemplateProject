@@ -1,6 +1,6 @@
 # Kotono Template Project
 
-This is a template project for the *[KotonoEngine](laracIette/KotonoEngine)*.
+This is a template project for the *[KotonoEngine](https://github.com/laracIette/KotonoEngine)*.
 
 ## Build
 
