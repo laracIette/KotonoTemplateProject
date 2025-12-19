@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(KotonoTemplateProject LANGUAGES CXX)
+project(KotonoTemplateProject LANGUAGES C CXX)
 
 # --- Global settings ---
 set(CMAKE_CXX_STANDARD 20)
