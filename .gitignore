@@ -408,3 +408,5 @@ build/
 
 *.spv
 *.ktregistry
+
+CMakePresets.json
