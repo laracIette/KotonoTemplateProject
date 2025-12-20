@@ -1,3 +1,5 @@
+#include <kotono_extension_coretestextension/test.h>
+#include <kotono_extension_editortestextension/test.h>
 #include <kotono_common/Path.h>
 #include <kotono_platform/Window.h>
 #include <kotono_core/Core.h>
@@ -12,6 +14,9 @@ void init_project_path()
 
 int main()
 {
+    say_core();
+    say_editor();
+
     init_project_path();
 
     Core.Init();

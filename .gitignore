@@ -409,4 +409,4 @@ build/
 *.spv
 *.ktregistry
 
-CMakePresets.json
+CMakeUserPresets.json

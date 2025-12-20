@@ -5,7 +5,7 @@ main() {
     set -e
 
     echo "Build with editor? (y/n)"
-    read -n 1 with_editor
+    read with_editor
     echo
 
     if [[ "$with_editor" == "y" ]]; then
@@ -23,7 +23,7 @@ main() {
         return
     fi
 
-    ENGINE_PATH="$engine_path"
+    ENGINE_PATH="${engine_path//\\//}"
 
     echo "Selected options :"
     echo "- WITH_EDITOR=$EDITOR"
@@ -31,7 +31,7 @@ main() {
     echo
 
     # Define the filename
-    FILENAME="CMakePresets.json"
+    FILENAME="CMakeUserPresets.json"
 
     # Write the content to the file
     cat <<EOF > $FILENAME
@@ -39,27 +39,24 @@ main() {
     "version": 3,
     "configurePresets": [
         {
-            "name": "default",
-            "displayName": "Kotono Engine Config",
-            "description": "Ninja Multi-Config with Editor enabled",
-            "generator": "Ninja Multi-Config",
-            "binaryDir": "\${sourceDir}/build",
+            "name": "user-default",
+            "displayName": "My Kotono Dev Config",
+            "inherits": "base-config",
             "cacheVariables": {
                 "WITH_EDITOR": "$EDITOR",
-                "ENGINE_PATH": "$ENGINE_PATH",
-                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+                "ENGINE_PATH": "$ENGINE_PATH"
             }
         }
     ],
     "buildPresets": [
         {
             "name": "debug",
-            "configurePreset": "default",
+            "configurePreset": "user-default",
             "configuration": "Debug"
         },
         {
             "name": "release",
-            "configurePreset": "default",
+            "configurePreset": "user-default",
             "configuration": "Release"
         }
     ]

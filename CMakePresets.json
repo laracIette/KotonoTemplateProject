@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "base-config",
+            "hidden": true,
+            "generator": "Ninja Multi-Config",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+            }
+        }
+    ]
+}

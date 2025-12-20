@@ -15,6 +15,8 @@ add_executable(KotonoTestApplication)
 # --- Enable C++20 ---
 target_compile_features(KotonoTestApplication PRIVATE cxx_std_20)
 
+set_target_properties(KotonoTestApplication PROPERTIES FOLDER "KotonoTemplateProject")
+
 # --- Preprocessor defines ---
 if (WITH_EDITOR)
     target_compile_definitions(KotonoTestApplication PRIVATE EDITOR)
@@ -44,6 +46,8 @@ if (WITH_EDITOR)
 else()
     target_link_libraries(KotonoTestApplication PRIVATE KotonoCore)
 endif()
+
+target_link_libraries(KotonoTestApplication PRIVATE KotonoExtensions)
 
 # Preprocessor defines for all builds
 target_compile_definitions(KotonoTestApplication PRIVATE
