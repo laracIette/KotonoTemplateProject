@@ -1,0 +1,12 @@
+{
+    "childrenIndex_": 0,
+    "children_": [],
+    "guid_": "20e5601c76d39544-4a4ffa3b8bfd9004-4f6728b64585f6b9-21a011134d821ebf",
+    "name_": "TSceneObject_20e5601c76d39544-4a4ffa3b8bfd9004-4f6728b64585f6b9-21a011134d821ebf",
+    "rootComponent_": "2dc59dcffd2dd94a-e76989ee77e6e99a-c5907c762ee5a9c5-af3dd00401747d5b",
+    "sceneComponents_": [
+        "2dc59dcffd2dd94a-e76989ee77e6e99a-c5907c762ee5a9c5-af3dd00401747d5b",
+        "0d1f54821a47cc45-2276df87c8a45ac8-2e94be3dddb3e00f-bfab2a2e2eb5b3cd"
+    ],
+    "type_": "TSceneObject"
+}

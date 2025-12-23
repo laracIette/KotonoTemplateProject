@@ -1,0 +1,30 @@
+{
+    "childrenIndex_": 0,
+    "children_": [],
+    "componentIndex_": 1,
+    "guid_": "2004583e68bd354f-977d4991715f9aae-cba49f3c8316ea3b-187242eada378737",
+    "mobility_": 0,
+    "model_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\assets\\models\\viking_room.obj",
+    "name_": "KSceneMeshComponent_2004583e68bd354f-977d4991715f9aae-cba49f3c8316ea3b-187242eada378737",
+    "shader_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\shaders\\shader3D.ktshader",
+    "transform_": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "type_": "KSceneMeshComponent",
+    "visibility_": 1
+}
