@@ -1,0 +1,30 @@
+{
+    "childrenIndex_": 0,
+    "children_": [],
+    "componentIndex_": 2,
+    "guid_": "abc82eba4a4aaf46-76ccfb85c6be0774-3bc4d3f1ceaf5300-fecb607699f53606",
+    "mobility_": 0,
+    "model_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\assets\\models\\column.obj",
+    "name_": "KSceneMeshComponent_abc82eba4a4aaf46-76ccfb85c6be0774-3bc4d3f1ceaf5300-fecb607699f53606",
+    "shader_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\shaders\\shader3D.ktshader",
+    "transform_": {
+        "position": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "rotation": {
+            "w": -0.07028660178184509,
+            "x": 0.0,
+            "y": 0.9975268840789795,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "type_": "KSceneMeshComponent",
+    "visibility_": 1
+}

@@ -1,17 +1,17 @@
 {
     "childrenIndex_": 0,
     "children_": [
-        "2004583e68bd354f-977d4991715f9aae-cba49f3c8316ea3b-187242eada378737"
+        "2041d7380e36a348-768724dd6c662511-b64e5b38bc7a8c9c-0414775622f63787"
     ],
     "componentIndex_": 0,
-    "guid_": "1eee1122a7b0d144-e803f939182403cb-b86d27e2d993d79d-a79df6c56a6c8df1",
+    "guid_": "957c7864d82c3444-6218a72fc22c5a48-64590125f059ba34-26a499d12f8e0047",
     "mobility_": 0,
-    "name_": "KSceneComponent_1eee1122a7b0d144-e803f939182403cb-b86d27e2d993d79d-a79df6c56a6c8df1",
+    "name_": "KSceneComponent_957c7864d82c3444-6218a72fc22c5a48-64590125f059ba34-26a499d12f8e0047",
     "transform_": {
         "position": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 4.0,
+            "y": 4.0,
+            "z": 4.0
         },
         "rotation": {
             "w": 1.0,
