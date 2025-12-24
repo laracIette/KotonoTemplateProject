@@ -24,9 +24,3 @@ message(STATUS "ENGINE_PATH is set to ${ENGINE_PATH}")
 add_subdirectory("${ENGINE_PATH}" "${CMAKE_CURRENT_BINARY_DIR}/KotonoEngine")
 add_subdirectory(TestApplication)
 add_subdirectory(Extensions)
-
-if (MSVC)
-    set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-        PROPERTY VS_STARTUP_PROJECT KotonoTestApplication
-    )
-endif()

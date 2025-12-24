@@ -13,18 +13,18 @@ add_library(KotonoExtensions INTERFACE)
 target_compile_features(KotonoExtensions INTERFACE cxx_std_20)
 
 # Core extensions
-add_subdirectory(Core/TestExtension)
+add_subdirectory(TestCoreExtension)
 
 target_link_libraries(KotonoExtensions INTERFACE 
-    KotonoCoreTestExtension
+    KotonoTestCoreExtension
 )
 
 # Editor extensions
 if (WITH_EDITOR)
-    add_subdirectory(Editor/TestExtension)
+    add_subdirectory(TestEditorExtension)
 
     target_link_libraries(KotonoExtensions INTERFACE 
-        KotonoEditorTestExtension
+        KotonoTestEditorExtension
     )
 endif()
 

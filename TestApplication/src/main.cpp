@@ -1,7 +1,7 @@
 #include <kotono_common/Path.h>
 #include <kotono_core/Core.h>
-#include <kotono_extension_coretestextension/test.h>
-#include <kotono_extension_editortestextension/test.h>
+#include <kotono_extension_testcoreextension/test.h>
+#include <kotono_extension_testeditorextension/test.h>
 #include <kotono_platform/Window.h>
 #ifdef EDITOR
     #include <kotono_editor/Editor.h>
