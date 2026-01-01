@@ -6,9 +6,9 @@
     "componentIndex_": 1,
     "guid_": "2041d7380e36a348-768724dd6c662511-b64e5b38bc7a8c9c-0414775622f63787",
     "mobility_": 0,
-    "model_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\assets\\models\\viking_room.obj",
+    "model_": "${ENGINE_DIRECTORY}\\Graphics\\assets\\models\\viking_room.obj",
     "name_": "KSceneMeshComponent_2041d7380e36a348-768724dd6c662511-b64e5b38bc7a8c9c-0414775622f63787",
-    "shader_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\shaders\\shader3D.ktshader",
+    "shader_": "${ENGINE_DIRECTORY}\\Graphics\\shaders\\shader3D.ktshader",
     "transform_": {
         "position": {
             "x": 0.0,

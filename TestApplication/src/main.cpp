@@ -1,4 +1,4 @@
-#include <kotono_common/Path.h>
+#include <kotono_common/PathManager.h>
 #include <kotono_core/Core.h>
 #include <kotono_extension_testcoreextension/test.h>
 #include <kotono_extension_testeditorextension/test.h>
@@ -7,7 +7,7 @@
     #include <kotono_editor/Editor.h>
 #endif
 
-std::filesystem::path KtPath::projectPath_{ PROJECT_DIRECTORY };
+std::filesystem::path SPathManager::projectPath_{ PROJECT_DIRECTORY };
 
 int main()
 {

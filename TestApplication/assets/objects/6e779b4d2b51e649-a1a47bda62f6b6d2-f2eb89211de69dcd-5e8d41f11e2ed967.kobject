@@ -4,9 +4,9 @@
     "componentIndex_": 2,
     "guid_": "6e779b4d2b51e649-a1a47bda62f6b6d2-f2eb89211de69dcd-5e8d41f11e2ed967",
     "mobility_": 0,
-    "model_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\assets\\models\\column.obj",
+    "model_": "${ENGINE_DIRECTORY}\\Graphics\\assets\\models\\column.obj",
     "name_": "KSceneMeshComponent_6e779b4d2b51e649-a1a47bda62f6b6d2-f2eb89211de69dcd-5e8d41f11e2ed967",
-    "shader_": "C:/Users/nicos/Documents/Visual Studio 2022/Projects/KotonoEngine\\Graphics\\shaders\\shader3D.ktshader",
+    "shader_": "${ENGINE_DIRECTORY}\\Graphics\\shaders\\shader3D.ktshader",
     "transform_": {
         "position": {
             "x": 1.0,
