@@ -2,11 +2,11 @@
     "childrenIndex_": 0,
     "children_": [],
     "componentIndex_": 2,
-    "guid_": "6e779b4d2b51e649-a1a47bda62f6b6d2-f2eb89211de69dcd-5e8d41f11e2ed967",
+    "guid_": "9dd58d60-66b4-4ebe-962e-9e5af8732f36",
     "mobility_": 0,
-    "model_": "${ENGINE_DIRECTORY}\\Graphics\\assets\\models\\column.obj",
-    "name_": "KSceneMeshComponent_6e779b4d2b51e649-a1a47bda62f6b6d2-f2eb89211de69dcd-5e8d41f11e2ed967",
-    "shader_": "${ENGINE_DIRECTORY}\\Graphics\\shaders\\shader3D.ktshader",
+    "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/column.obj",
+    "name_": "KSceneMeshComponent_9dd58d60-66b4-4ebe-962e-9e5af8732f36",
+    "shader_": "${ENGINE_DIRECTORY}/Graphics/shaders/shader3D.ktshader",
     "transform_": {
         "position": {
             "x": 1.0,
@@ -14,9 +14,9 @@
             "z": 1.0
         },
         "rotation": {
-            "w": -0.07028660178184509,
+            "w": 1.0,
             "x": 0.0,
-            "y": 0.9975268840789795,
+            "y": 0.0,
             "z": 0.0
         },
         "scale": {

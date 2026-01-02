@@ -1,0 +1,32 @@
+{
+    "childrenIndex_": 0,
+    "children_": [
+        "9dd58d60-66b4-4ebe-962e-9e5af8732f36"
+    ],
+    "componentIndex_": 1,
+    "guid_": "ee691331-9d58-4c32-88c8-383ee94adbf7",
+    "mobility_": 0,
+    "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/viking_room.obj",
+    "name_": "KSceneMeshComponent_ee691331-9d58-4c32-88c8-383ee94adbf7",
+    "shader_": "${ENGINE_DIRECTORY}/Graphics/shaders/shader3D.ktshader",
+    "transform_": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "type_": "KSceneMeshComponent",
+    "visibility_": 1
+}

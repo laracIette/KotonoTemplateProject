@@ -1,0 +1,9 @@
+{
+    "guid_": "6a1530fb-6d7d-4ca3-bcc2-f678ffc20348",
+    "name_": "Test Scene",
+    "sceneObjects_": [
+        "47a32777-8f44-4c27-8c28-4995036dee04",
+        "fb2961e6-0c72-402f-848d-7819988c29e1"
+    ],
+    "type_": "KScene"
+}

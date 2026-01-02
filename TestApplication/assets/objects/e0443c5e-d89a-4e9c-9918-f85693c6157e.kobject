@@ -1,0 +1,30 @@
+{
+    "childrenIndex_": 0,
+    "children_": [
+        "ee691331-9d58-4c32-88c8-383ee94adbf7"
+    ],
+    "componentIndex_": 0,
+    "guid_": "e0443c5e-d89a-4e9c-9918-f85693c6157e",
+    "mobility_": 0,
+    "name_": "KSceneComponent_e0443c5e-d89a-4e9c-9918-f85693c6157e",
+    "transform_": {
+        "position": {
+            "x": 1.579999327659607,
+            "y": -0.8599997162818909,
+            "z": 1.2399994134902954
+        },
+        "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "type_": "KSceneComponent",
+    "visibility_": 1
+}
