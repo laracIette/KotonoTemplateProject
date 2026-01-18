@@ -10,12 +10,12 @@ endif()
 
 add_library(KotonoExtensions INTERFACE)
 
-target_compile_features(KotonoExtensions INTERFACE cxx_std_20)
+target_compile_features(KotonoExtensions INTERFACE cxx_std_23)
 
 # Core extensions
 add_subdirectory(TestCoreExtension)
 
-target_link_libraries(KotonoExtensions INTERFACE 
+target_link_libraries(KotonoExtensions INTERFACE
     KotonoTestCoreExtension
 )
 
@@ -23,7 +23,7 @@ target_link_libraries(KotonoExtensions INTERFACE
 if (WITH_EDITOR)
     add_subdirectory(TestEditorExtension)
 
-    target_link_libraries(KotonoExtensions INTERFACE 
+    target_link_libraries(KotonoExtensions INTERFACE
         KotonoTestEditorExtension
     )
 endif()

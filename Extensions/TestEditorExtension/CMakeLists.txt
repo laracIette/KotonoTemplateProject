@@ -12,7 +12,7 @@ endif()
 add_library(KotonoTestEditorExtension STATIC)
 
 # Require C++20
-target_compile_features(KotonoTestEditorExtension PUBLIC cxx_std_20)
+target_compile_features(KotonoTestEditorExtension PUBLIC cxx_std_23)
 
 set_target_properties(KotonoTestEditorExtension PROPERTIES FOLDER "KotonoTemplateProject/Extensions")
 
@@ -23,13 +23,13 @@ set(KTESTEDITOREXTENSION_SOURCES
     "src/test.cpp"
 )
 
-target_sources(KotonoTestEditorExtension 
+target_sources(KotonoTestEditorExtension
     PRIVATE ${KTESTEDITOREXTENSION_HEADERS}
     PRIVATE ${KTESTEDITOREXTENSION_SOURCES}
 )
 
 # Include directories
-target_include_directories(KotonoTestEditorExtension 
+target_include_directories(KotonoTestEditorExtension
     PUBLIC  "${CMAKE_CURRENT_SOURCE_DIR}/include"
     PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include/kotono_extension_testeditorextension"
 )

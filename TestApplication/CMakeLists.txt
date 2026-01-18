@@ -13,7 +13,7 @@ endif()
 add_executable(KotonoTestApplication)
 
 # --- Enable C++20 ---
-target_compile_features(KotonoTestApplication PRIVATE cxx_std_20)
+target_compile_features(KotonoTestApplication PRIVATE cxx_std_23)
 
 set_target_properties(KotonoTestApplication PROPERTIES FOLDER "KotonoTemplateProject")
 
