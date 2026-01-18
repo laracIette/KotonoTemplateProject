@@ -3,5 +3,5 @@
 
 void say_core()
 {
-    KT_LOG(KT_LOG_COMPILE_TIME_LEVEL, "KotonoCoreTestExtension.say_core()", "Core !");
+    KT_LOG(KT_LOG_COMPILE_TIME_LEVEL, "KotonoCoreTestExtension", "Core !");
 }
