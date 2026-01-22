@@ -11,7 +11,6 @@ endif()
 # Static library
 add_library(KotonoTestCoreExtension STATIC)
 
-# Require C++20
 target_compile_features(KotonoTestCoreExtension PUBLIC cxx_std_23)
 
 set_target_properties(KotonoTestCoreExtension PROPERTIES FOLDER "KotonoTemplateProject/Extensions")
