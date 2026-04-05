@@ -6,9 +6,8 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# --- Enable multithreaded compilation on MSVC ---
+# --- Enable security checks ---
 if (MSVC)
-    add_compile_options(/MP)
     add_compile_options(/sdl)
 endif()
 

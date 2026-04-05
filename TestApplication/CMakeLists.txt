@@ -5,8 +5,6 @@ project(KotonoTestApplication LANGUAGES C CXX)
 if (MSVC)
     # Security checks
     add_compile_options(/sdl)
-    # Multi-core
-    add_compile_options(/MP)
 endif()
 
 # ---- Create executable ---
