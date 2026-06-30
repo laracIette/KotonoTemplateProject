@@ -5,10 +5,11 @@
     ],
     "componentIndex_": 1,
     "guid_": "ee691331-9d58-4c32-88c8-383ee94adbf7",
+    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/default.ktasset",
     "mobility_": 0,
     "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/viking_room.obj",
     "name_": "KSceneMeshComponent_ee691331-9d58-4c32-88c8-383ee94adbf7",
-    "shader_": "${ENGINE_DIRECTORY}/Graphics/shaders/shader3D.ktshader",
+    "shader_": "${ENGINE_DIRECTORY}/Graphics/shaders/pbr.ktshader",
     "transform_": {
         "position": {
             "x": 0.0,

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 4.2)
 project(KotonoTestApplication LANGUAGES C CXX)
 
 # --- MSVC settings ---
@@ -31,6 +31,11 @@ target_sources(KotonoTestApplication
     PRIVATE ${KTESTAPPLICATION_HEADERS}
     PRIVATE ${KTESTAPPLICATION_SOURCES}
 )
+
+file(GLOB_RECURSE KTESTAPPLICATION_ASSETS CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/assets/*")
+set_source_files_properties(${KTESTAPPLICATION_ASSETS} PROPERTIES HEADER_FILE_ONLY TRUE)
+source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}/assets" PREFIX "Assets" FILES ${KTESTAPPLICATION_ASSETS})
+target_sources(KotonoTestApplication PRIVATE ${KTESTAPPLICATION_ASSETS})
 
 # --- Includes ---
 target_include_directories(KotonoTestApplication

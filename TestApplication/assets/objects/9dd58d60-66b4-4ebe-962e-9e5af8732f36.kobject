@@ -3,10 +3,11 @@
     "children_": [],
     "componentIndex_": 2,
     "guid_": "9dd58d60-66b4-4ebe-962e-9e5af8732f36",
+    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/default2.ktasset",
     "mobility_": 0,
     "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/column.obj",
     "name_": "KSceneMeshComponent_9dd58d60-66b4-4ebe-962e-9e5af8732f36",
-    "shader_": "${ENGINE_DIRECTORY}/Graphics/shaders/shader3D.ktshader",
+    "shader_": "${ENGINE_DIRECTORY}/Graphics/shaders/pbr.ktshader",
     "transform_": {
         "position": {
             "x": 1.0,
