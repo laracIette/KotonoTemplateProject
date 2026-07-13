@@ -1,0 +1,31 @@
+{
+    "childrenIndex_": 0,
+    "children_": [],
+    "componentIndex_": 0,
+    "guid_": "5e2a4f4a-42a8-4db9-9315-3ed70320320e",
+    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/ground.kasset",
+    "mobility_": 0,
+    "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/floor.obj",
+    "name_": "KMeshComponent_5e2a4f4a-42a8-4db9-9315-3ed70320320e",
+    "shader_": "${ENGINE_DIRECTORY}/Graphics/assets/shaders/gbuffer.kasset",
+    "transform_": {
+        "position": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 100.0,
+            "y": 100.0,
+            "z": 100.0
+        }
+    },
+    "type_": "KMeshComponent",
+    "visibility_": 1
+}

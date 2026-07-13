@@ -1,0 +1,10 @@
+{
+    "childrenIndex_": 0,
+    "children_": [],
+    "guid_": "9a8a1adb-4aee-4519-ae79-d0694bce4886",
+    "name_": "Ground",
+    "sceneComponents_": [
+        "5e2a4f4a-42a8-4db9-9315-3ed70320320e"
+    ],
+    "type_": "TSceneObject"
+}

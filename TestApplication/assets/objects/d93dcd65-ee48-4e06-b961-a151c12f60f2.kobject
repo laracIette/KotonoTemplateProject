@@ -5,11 +5,11 @@
     ],
     "componentIndex_": 1,
     "guid_": "d93dcd65-ee48-4e06-b961-a151c12f60f2",
-    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/default2.ktasset",
+    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/viking_room.kasset",
     "mobility_": 0,
     "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/viking_room.obj",
-    "name_": "KSceneMeshComponent_d93dcd65-ee48-4e06-b961-a151c12f60f2",
-    "shader_": "${ENGINE_DIRECTORY}/Graphics/shaders/pbr.ktshader",
+    "name_": "KMeshComponent_d93dcd65-ee48-4e06-b961-a151c12f60f2",
+    "shader_": "${ENGINE_DIRECTORY}/Graphics/assets/shaders/gbuffer.kasset",
     "transform_": {
         "position": {
             "x": 0.0,
@@ -28,6 +28,6 @@
             "z": 1.0
         }
     },
-    "type_": "KSceneMeshComponent",
+    "type_": "KMeshComponent",
     "visibility_": 1
 }

@@ -1,0 +1,36 @@
+{
+    "childrenIndex_": 1,
+    "children_": [],
+    "color_": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+    },
+    "componentIndex_": 2,
+    "guid_": "41e142f2-a1da-4313-a640-85d0a12f4e15",
+    "intensity_": 100.0,
+    "mobility_": 0,
+    "name_": "KPointLightComponent_41e142f2-a1da-4313-a640-85d0a12f4e15",
+    "range_": 3.0,
+    "transform_": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "type_": "KPointLightComponent",
+    "visibility_": 1
+}

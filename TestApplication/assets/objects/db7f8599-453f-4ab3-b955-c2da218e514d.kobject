@@ -1,0 +1,35 @@
+{
+    "childrenIndex_": 0,
+    "children_": [],
+    "color_": {
+        "a": 1.0,
+        "b": 1.0,
+        "g": 1.0,
+        "r": 1.0
+    },
+    "componentIndex_": 1,
+    "guid_": "db7f8599-453f-4ab3-b955-c2da218e514d",
+    "intensity_": 2.0,
+    "mobility_": 0,
+    "name_": "KDirectionalLightComponent_db7f8599-453f-4ab3-b955-c2da218e514d",
+    "transform_": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "w": 0.22975292801856995,
+            "x": -0.9732490181922913,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "type_": "KDirectionalLightComponent",
+    "visibility_": 1
+}

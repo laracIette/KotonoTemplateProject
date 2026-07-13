@@ -3,10 +3,10 @@
 #include <kotono_extension_testcoreextension/test.h>
 #include <kotono_extension_testeditorextension/test.h>
 #include <kotono_platform/Window.h>
-#if defined (EDITOR)
+#ifdef EDITOR
     #include <kotono_editor/Editor.h>
 #endif
-#if defined (_DEBUG)
+#ifndef NDEBUG
     #include <kotono_object/Object.h>
 #endif
 
@@ -18,24 +18,24 @@ int main()
     say_editor();
 
     Core.Init();
-#   if defined (EDITOR)
+#   ifdef EDITOR
         Editor.Init();
 #   endif
 
     while (!Window.GetShouldClose())
     {
         Core.Update();
-#       if defined (EDITOR)
+#       ifdef EDITOR
             Editor.Update();
 #       endif
     }
 
-#   if defined (EDITOR)
+#   ifdef EDITOR
         Editor.Cleanup();
 #   endif
     Core.Cleanup();
 
-#   if defined (_DEBUG)
+#   ifndef NDEBUG
     KObject::CheckDebugRegistry();
 #   endif
 
