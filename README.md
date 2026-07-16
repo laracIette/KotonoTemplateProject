@@ -4,6 +4,8 @@ This is a template project for the *[Kotono Engine](https://github.com/laracIett
 
 ## Build
 
+First, clone the Kotono Engine and the Kotono Template Project.
+
 - Run *[generate_user_presets.sh](generate_user_presets.sh)* to generate *CMakeUserPresets.json*, this allows your IDE or the command line to recognize the project's build configurations.
 
     - Build via your IDE if it supports cmake presets.
@@ -24,4 +26,4 @@ This is a template project for the *[Kotono Engine](https://github.com/laracIett
 
 ## Side Note
 
-Make sure that you have the *[Vulkan SDK](https://vulkan.lunarg.com/sdk/home)* and that its bin folder is added to your system’s PATH environment variable.
+Make sure that you have the *[Vulkan SDK](https://vulkan.lunarg.com/sdk/home)* 1.4 or later and that its bin folder is added to your system’s PATH environment variable.
