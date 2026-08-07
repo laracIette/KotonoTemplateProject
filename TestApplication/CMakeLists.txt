@@ -3,7 +3,6 @@ project(KotonoTestApplication LANGUAGES C CXX)
 
 # --- MSVC settings ---
 if (MSVC)
-    # Security checks
     add_compile_options(/sdl)
 endif()
 
@@ -14,11 +13,6 @@ add_executable(KotonoTestApplication)
 target_compile_features(KotonoTestApplication PRIVATE cxx_std_23)
 
 set_target_properties(KotonoTestApplication PROPERTIES FOLDER "KotonoTemplateProject")
-
-# --- Preprocessor defines ---
-if (WITH_EDITOR)
-    target_compile_definitions(KotonoTestApplication PRIVATE EDITOR)
-endif()
 
 # --- Add source files ---
 set(KTESTAPPLICATION_HEADERS
@@ -44,12 +38,7 @@ target_include_directories(KotonoTestApplication
 )
 
 # --- Link engine or editor ---
-if (WITH_EDITOR)
-    target_link_libraries(KotonoTestApplication PRIVATE KotonoEditor)
-else()
-    target_link_libraries(KotonoTestApplication PRIVATE KotonoCore)
-endif()
-
+target_link_libraries(KotonoTestApplication PRIVATE KotonoApplication)
 target_link_libraries(KotonoTestApplication PRIVATE KotonoExtensions)
 
 # Preprocessor defines for all builds
