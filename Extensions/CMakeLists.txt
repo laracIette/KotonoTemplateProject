@@ -1,11 +1,6 @@
 cmake_minimum_required(VERSION 4.2)
 project(KotonoExtensions LANGUAGES C CXX)
 
-if (MSVC)
-    # Enable SDL security checks
-    add_compile_options(/sdl)
-endif()
-
 add_library(KotonoExtensions INTERFACE)
 
 target_compile_features(KotonoExtensions INTERFACE cxx_std_23)

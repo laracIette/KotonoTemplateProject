@@ -1,7 +1,5 @@
 {
-    "childrenIndex_": 0,
     "children_": [],
-    "componentIndex_": 0,
     "guid_": "5e2a4f4a-42a8-4db9-9315-3ed70320320e",
     "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/ground.kasset",
     "mobility_": 0,

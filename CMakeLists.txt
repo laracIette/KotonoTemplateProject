@@ -11,6 +11,16 @@ if (MSVC)
     add_compile_options(/sdl)
 endif()
 
+# --- Link time optimization for release ---
+include(CheckIPOSupported)
+check_ipo_supported(RESULT ipo_supported OUTPUT error)
+
+if(ipo_supported)
+    set(CMAKE_INTERPROCEDURAL_OPTIMIZATION_RELEASE ON)
+else()
+    message(STATUS "LTO not supported by this compiler: ${error}")
+endif()
+
 # --- Editor option (propagates to child targets) ---
 option(WITH_EDITOR "Build the Kotono Editor" ON)
 message(STATUS "WITH_EDITOR is set to ${WITH_EDITOR}")

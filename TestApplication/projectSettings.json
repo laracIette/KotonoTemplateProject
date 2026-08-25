@@ -1,3 +1,3 @@
 {
-    "startupScene": "6a1530fb-6d7d-4ca3-bcc2-f678ffc20348"
+    "startupScene": "${PROJECT_DIRECTORY}/assets/scenes/scene.kscene"
 }

@@ -1,15 +1,8 @@
 cmake_minimum_required(VERSION 4.2)
 project(KotonoTestApplication LANGUAGES C CXX)
 
-# --- MSVC settings ---
-if (MSVC)
-    add_compile_options(/sdl)
-endif()
-
-# ---- Create executable ---
 add_executable(KotonoTestApplication)
 
-# --- Enable C++20 ---
 target_compile_features(KotonoTestApplication PRIVATE cxx_std_23)
 
 set_target_properties(KotonoTestApplication PROPERTIES FOLDER "KotonoTemplateProject")

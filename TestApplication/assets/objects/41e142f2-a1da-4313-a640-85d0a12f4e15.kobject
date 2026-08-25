@@ -1,5 +1,4 @@
 {
-    "childrenIndex_": 1,
     "children_": [],
     "color_": {
         "a": 1.0,
@@ -7,7 +6,6 @@
         "g": 1.0,
         "r": 1.0
     },
-    "componentIndex_": 2,
     "guid_": "41e142f2-a1da-4313-a640-85d0a12f4e15",
     "intensity_": 100.0,
     "mobility_": 0,

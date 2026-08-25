@@ -1,9 +1,7 @@
 {
-    "childrenIndex_": 0,
     "children_": [
         "9dd58d60-66b4-4ebe-962e-9e5af8732f36"
     ],
-    "componentIndex_": 1,
     "guid_": "ee691331-9d58-4c32-88c8-383ee94adbf7",
     "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/viking_room.kasset",
     "mobility_": 0,

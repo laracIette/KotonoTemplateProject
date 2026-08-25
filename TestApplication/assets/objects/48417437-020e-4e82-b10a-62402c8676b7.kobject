@@ -1,10 +1,8 @@
 {
-    "childrenIndex_": 0,
     "children_": [
         "db7f8599-453f-4ab3-b955-c2da218e514d",
         "41e142f2-a1da-4313-a640-85d0a12f4e15"
     ],
-    "componentIndex_": 0,
     "guid_": "48417437-020e-4e82-b10a-62402c8676b7",
     "mobility_": 0,
     "name_": "KSceneComponent_48417437-020e-4e82-b10a-62402c8676b7",

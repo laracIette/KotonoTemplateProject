@@ -1,12 +1,6 @@
 cmake_minimum_required(VERSION 4.2)
 project(KotonoTestEditorExtension LANGUAGES C CXX)
 
-if (MSVC)
-    # Enable SDL security checks
-    add_compile_options(/sdl)
-endif()
-
-# Static library
 add_library(KotonoTestEditorExtension STATIC)
 
 target_compile_features(KotonoTestEditorExtension PUBLIC cxx_std_23)

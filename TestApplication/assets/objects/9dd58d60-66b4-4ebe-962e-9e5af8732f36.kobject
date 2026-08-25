@@ -1,7 +1,5 @@
 {
-    "childrenIndex_": 0,
     "children_": [],
-    "componentIndex_": 2,
     "guid_": "9dd58d60-66b4-4ebe-962e-9e5af8732f36",
     "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/uv_grid.kasset",
     "mobility_": 0,
