@@ -1,0 +1,9 @@
+{
+    "children_": [],
+    "guid_": "2f5ef967-5c96-4062-87ba-7373f5bab987",
+    "name_": "Honk",
+    "sceneComponents_": [
+        "ea251a6c-658c-4660-96f9-2a73c3776fd2"
+    ],
+    "type_": "TSceneObject"
+}

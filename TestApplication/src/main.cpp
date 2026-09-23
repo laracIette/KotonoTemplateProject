@@ -3,7 +3,7 @@
 #include <kotono_extension_testcoreextension/test.h>
 #include <kotono_extension_testeditorextension/test.h>
 
-std::filesystem::path SPathManager::projectPath_{ PROJECT_DIRECTORY };
+UPath SPathManager::projectPath_{ PROJECT_DIRECTORY };
 
 int main()
 {
