@@ -1,7 +1,7 @@
 #include <Application/Application.h>
 #include <Path/Path.h>
-#include <kotono_extension_testcoreextension/test.h>
-#include <kotono_extension_testeditorextension/test.h>
+#include <say_core/say_core.h>
+#include <say_editor/say_editor.h>
 
 std::string_view UPath::enginePath_{ ENGINE_DIRECTORY };
 std::string_view UPath::projectPath_{ PROJECT_DIRECTORY };

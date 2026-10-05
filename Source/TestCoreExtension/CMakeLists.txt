@@ -7,23 +7,26 @@ target_compile_features(KotonoTestCoreExtension PUBLIC cxx_std_23)
 
 set_target_properties(KotonoTestCoreExtension PROPERTIES FOLDER "KotonoTemplateProject/Extensions")
 
-set(KTESTCOREEXTENSION_HEADERS
-    "include/kotono_extension_testcoreextension/test.h"
+set(KTESTCOREEXTENSION_PUBLIC_HEADERS
+    "Public/say_core/say_core.h"
 )
 set(KTESTCOREEXTENSION_SOURCES
-    "src/test.cpp"
+    "Private/say_core/say_core.cpp"
 )
 
 target_sources(KotonoTestCoreExtension
-    PRIVATE ${KTESTCOREEXTENSION_HEADERS}
-    PRIVATE ${KTESTCOREEXTENSION_SOURCES}
+    PRIVATE
+        ${KTESTCOREEXTENSION_SOURCES}
+    PUBLIC FILE_SET HEADERS
+        BASE_DIRS Public
+        FILES ${KTESTCOREEXTENSION_PUBLIC_HEADERS}
+
 )
 
 target_include_directories(KotonoTestCoreExtension
-    PUBLIC  "${CMAKE_CURRENT_SOURCE_DIR}/include"
-    PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include/kotono_extension_testcoreextension"
+    PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Private"
 )
 
 target_link_libraries(KotonoTestCoreExtension PUBLIC
-    KotonoObject
+    KotonoApplication
 )

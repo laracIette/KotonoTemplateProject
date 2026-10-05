@@ -7,25 +7,26 @@ target_compile_features(KotonoTestEditorExtension PUBLIC cxx_std_23)
 
 set_target_properties(KotonoTestEditorExtension PROPERTIES FOLDER "KotonoTemplateProject/Extensions")
 
-set(KTESTEDITOREXTENSION_HEADERS
-    "include/kotono_extension_testeditorextension/test.h"
+set(KTESTEDITOREXTENSION_PUBLIC_HEADERS
+    "Public/say_editor/say_editor.h"
 )
 set(KTESTEDITOREXTENSION_SOURCES
-    "src/test.cpp"
+    "Private/say_editor/say_editor.cpp"
 )
 
 target_sources(KotonoTestEditorExtension
-    PRIVATE ${KTESTEDITOREXTENSION_HEADERS}
-    PRIVATE ${KTESTEDITOREXTENSION_SOURCES}
+    PRIVATE
+        ${KTESTEDITOREXTENSION_SOURCES}
+    PUBLIC FILE_SET HEADERS
+        BASE_DIRS Public
+        FILES ${KTESTEDITOREXTENSION_PUBLIC_HEADERS}
+
 )
 
-# Include directories
 target_include_directories(KotonoTestEditorExtension
-    PUBLIC  "${CMAKE_CURRENT_SOURCE_DIR}/include"
-    PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include/kotono_extension_testeditorextension"
+    PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Private"
 )
 
-# Link libs
 target_link_libraries(KotonoTestEditorExtension PUBLIC
-    KotonoEditor
+    KotonoApplication
 )

@@ -31,5 +31,4 @@ message(STATUS "ENGINE_PATH is set to ${ENGINE_PATH}")
 
 # --- Add all modules (subprojects) ---
 add_subdirectory("${ENGINE_PATH}/Source" "${CMAKE_CURRENT_BINARY_DIR}/KotonoEngine")
-add_subdirectory(TestApplication)
-add_subdirectory(Extensions)
+add_subdirectory(Source)
