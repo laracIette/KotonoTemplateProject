@@ -1,11 +1,11 @@
 {
     "children_": [],
     "guid_": "af8fe107-5d30-4e5b-8278-f941057165e7",
-    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/uv_grid.kasset",
+    "material_": "${ENGINE_DIRECTORY}/Assets/materials/uv_grid.kasset",
     "mobility_": 0,
-    "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/column.obj",
+    "model_": "${ENGINE_DIRECTORY}/Assets/models/column.obj",
     "name_": "KMeshComponent_af8fe107-5d30-4e5b-8278-f941057165e7",
-    "shader_": "${ENGINE_DIRECTORY}/Graphics/assets/shaders/gbuffer.kasset",
+    "shader_": "${ENGINE_DIRECTORY}/Assets/shaders/gbuffer.kasset",
     "transform_": {
         "position": {
             "x": 1.0,

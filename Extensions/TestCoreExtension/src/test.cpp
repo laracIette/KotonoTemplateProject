@@ -1,5 +1,5 @@
 #include "test.h"
-#include <kotono_common/log.h>
+#include <Logging/log.h>
 
 void say_core()
 {

@@ -3,11 +3,11 @@
         "af8fe107-5d30-4e5b-8278-f941057165e7"
     ],
     "guid_": "d93dcd65-ee48-4e06-b961-a151c12f60f2",
-    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/viking_room.kasset",
+    "material_": "${ENGINE_DIRECTORY}/Assets/materials/viking_room.kasset",
     "mobility_": 0,
-    "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/viking_room.obj",
+    "model_": "${ENGINE_DIRECTORY}/Assets/models/viking_room.obj",
     "name_": "KMeshComponent_d93dcd65-ee48-4e06-b961-a151c12f60f2",
-    "shader_": "${ENGINE_DIRECTORY}/Graphics/assets/shaders/gbuffer.kasset",
+    "shader_": "${ENGINE_DIRECTORY}/Assets/shaders/gbuffer.kasset",
     "transform_": {
         "position": {
             "x": 0.0,

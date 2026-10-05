@@ -1,11 +1,11 @@
 {
     "children_": [],
     "guid_": "5e2a4f4a-42a8-4db9-9315-3ed70320320e",
-    "material_": "${ENGINE_DIRECTORY}/Graphics/assets/materials/ground.kasset",
+    "material_": "${ENGINE_DIRECTORY}/Assets/materials/ground.kasset",
     "mobility_": 0,
-    "model_": "${ENGINE_DIRECTORY}/Graphics/assets/models/floor.obj",
+    "model_": "${ENGINE_DIRECTORY}/Assets/models/floor.obj",
     "name_": "KMeshComponent_5e2a4f4a-42a8-4db9-9315-3ed70320320e",
-    "shader_": "${ENGINE_DIRECTORY}/Graphics/assets/shaders/gbuffer.kasset",
+    "shader_": "${ENGINE_DIRECTORY}/Assets/shaders/gbuffer.kasset",
     "transform_": {
         "position": {
             "x": 0.0,

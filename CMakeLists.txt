@@ -30,6 +30,6 @@ set(ENGINE_PATH "" CACHE PATH "The path to your Kotono Engine installation")
 message(STATUS "ENGINE_PATH is set to ${ENGINE_PATH}")
 
 # --- Add all modules (subprojects) ---
-add_subdirectory("${ENGINE_PATH}" "${CMAKE_CURRENT_BINARY_DIR}/KotonoEngine")
+add_subdirectory("${ENGINE_PATH}/Source" "${CMAKE_CURRENT_BINARY_DIR}/KotonoEngine")
 add_subdirectory(TestApplication)
 add_subdirectory(Extensions)

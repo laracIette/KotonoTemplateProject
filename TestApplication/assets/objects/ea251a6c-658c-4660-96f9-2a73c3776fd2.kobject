@@ -3,7 +3,7 @@
     "guid_": "ea251a6c-658c-4660-96f9-2a73c3776fd2",
     "mobility_": 0,
     "name_": "KAudioComponent_ea251a6c-658c-4660-96f9-2a73c3776fd2",
-    "audioSource_": "${ENGINE_DIRECTORY}/Audio/assets/honk_mono.wav",
+    "audioSource_": "${ENGINE_DIRECTORY}/Assets/audio/sources/honk_mono.wav",
     "transform_": {
         "position": {
             "x": 0.0,

@@ -1,9 +1,10 @@
-#include <kotono_application/Application.h>
-#include <kotono_common/PathManager.h>
+#include <Application/Application.h>
+#include <Path/Path.h>
 #include <kotono_extension_testcoreextension/test.h>
 #include <kotono_extension_testeditorextension/test.h>
 
-UPath SPathManager::projectPath_{ PROJECT_DIRECTORY };
+std::string_view UPath::enginePath_{ ENGINE_DIRECTORY };
+std::string_view UPath::projectPath_{ PROJECT_DIRECTORY };
 
 int main()
 {

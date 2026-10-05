@@ -19,13 +19,11 @@ target_sources(KotonoTestCoreExtension
     PRIVATE ${KTESTCOREEXTENSION_SOURCES}
 )
 
-# Include directories
 target_include_directories(KotonoTestCoreExtension
     PUBLIC  "${CMAKE_CURRENT_SOURCE_DIR}/include"
     PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include/kotono_extension_testcoreextension"
 )
 
-# Link libs
 target_link_libraries(KotonoTestCoreExtension PUBLIC
-    KotonoCore
+    KotonoObject
 )
