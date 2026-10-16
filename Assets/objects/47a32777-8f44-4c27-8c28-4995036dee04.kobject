@@ -1,5 +1,6 @@
 {
     "children_": [],
+    "dummy_": 0.0,
     "guid_": "47a32777-8f44-4c27-8c28-4995036dee04",
     "name_": "TSceneObject_cool",
     "sceneComponents_": [

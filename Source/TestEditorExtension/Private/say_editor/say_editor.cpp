@@ -3,5 +3,5 @@
 
 void say_editor()
 {
-	KT_LOG(KT_LOG_COMPILE_TIME_LEVEL, "KotonoEditorTestExtension", "Editor !");
+	Log(Normal, "Editor !");
 }

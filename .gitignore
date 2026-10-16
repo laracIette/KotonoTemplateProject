@@ -407,7 +407,7 @@ FodyWeavers.xsd
 .idea/
 build/
 
-*.spv
-*.ktregistry
+Cache/
+Temp/
 
 CMakeUserPresets.json
