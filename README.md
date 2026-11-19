@@ -6,7 +6,7 @@ This is a template project for the *[Kotono Engine](https://github.com/laracIett
 
 First, clone the Kotono Engine and the Kotono Template Project.
 
-- Run *[generate_user_presets.sh](generate_user_presets.sh)* to generate *CMakeUserPresets.json*, this allows your IDE or the command line to recognize the project's build configurations.
+- Run *[Setup.py](Setup.py)* to generate *CMakeUserPresets.json*, this allows your IDE or the command line to recognize the project's build configurations.
 
     - Build via your IDE if it supports cmake presets.
 
